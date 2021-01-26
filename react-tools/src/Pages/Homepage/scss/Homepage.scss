@@ -13,31 +13,23 @@ nav {
     height: 7vh;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     background: rgb(59, 59, 59);
     color: rgb(224, 224, 224);
-    ul {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
 }
 
-.nav-links {
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
+.main {
+    height: 85vh;
 }
 
-
-
-.flex {
-    height: 93vh;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.grid {
+    width: 40%;
+    height: 100%;
+    padding: 4vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
 }
 
 .video-js {
