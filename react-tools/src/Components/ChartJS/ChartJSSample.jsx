@@ -2,6 +2,7 @@ import React, {useState, createRef} from 'react'
 import Chart from 'chart.js'
 import {Doughnut} from 'react-chartjs-2';
 import uniqid from 'uniqid'
+import RadarSample from './RadarSample'
 
 
 const data = {
@@ -55,16 +56,22 @@ const ChartJSSample = () => {
         <div style={
             {width: '600px', display: 'flex', flexDirection: 'column', justifyContent: 'center', margin: '0 auto', textAlign: 'center'}
         }>
-            <header style={{padding: '1em'}}>ChartJSSample</header>
+            <header style={{padding: '1em'}}>Chart.js Sample</header>
             <hr/>
             <div>
+            <header style={{padding: '1em'}}>Donut</header>
                 <Doughnut ref={ref}
                     data={data}
                     id={
                         uniqid()
-                    }/>
-            </div>
+                    }
+                    />
 
+            </div>
+            <div>
+            <header style={{paddingTop: '2em'}}>Radar</header>
+                <RadarSample />
+            </div>
         </div>
     )
 }

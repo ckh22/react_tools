@@ -18,7 +18,8 @@ const navLinks = [
     'ParticlesJS',
     'PrismJS',
     'Quill',
-    'Slick'
+    'Slick',
+    'Datetime'
 ]
 
 const Homepage = () => {

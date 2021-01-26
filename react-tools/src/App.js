@@ -16,6 +16,7 @@ import ParticlesJSSample from './Components/ParticlesJS/ParticlesJSSample'
 import PrismJSSample from './Components/PrismJS/PrismJSSample'
 import QuillSample from './Components/Quill/QuillSample'
 import SlickSample from './Components/Slick/SlickSample'
+import DatetimeSample from './Components/Datetime/DatetimeSample'
 
 function App() {
     return (
@@ -57,6 +58,8 @@ function App() {
                                 component={QuillSample}/>
                             <Route exact path="/Slick"
                                 component={SlickSample}/>
+                                <Route exact path="/Datetime"
+                                component={DatetimeSample}/>
 
                         </>
                     )
