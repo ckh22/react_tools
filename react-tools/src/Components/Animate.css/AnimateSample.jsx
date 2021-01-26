@@ -1,9 +1,10 @@
 import React from 'react'
+import './scss/AnimateSample.css'
 
 const AnimateSample = () => {
     return (
         <div>
-            AnimateSample
+            <div className="box"></div>     
         </div>
     )
 }
