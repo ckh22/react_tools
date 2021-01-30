@@ -1,3 +1,4 @@
+// taken from https://codesandbox.io/s/react-three-fiber-map-mkq8e?file=/src/index.js:0-1977
 import * as THREE from 'three'
 import React, { Suspense, useState, useRef, useEffect, useLayoutEffect, useMemo } from 'react'
 import { Canvas, useLoader } from 'react-three-fiber'
