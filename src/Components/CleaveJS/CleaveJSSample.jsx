@@ -1,14 +1,12 @@
 import React, {useState} from 'react'
 import Cleave from 'cleave.js/react';
 import "cleave.js/dist/addons/cleave-phone.us";
-import {Button} from 'react-bootstrap';
 
 const CleaveJSSample = () => {
     const [creditCardRawValue, setCreditCardRawValue] = useState('');
     const [phoneRawValue, setPhoneRawValue] = useState('');
     const [customRawValue, setCustomRawValue] = useState('');
 
-    function handleChange(event) {}
     return (
         <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
             <header style={{margin: '0 auto', padding: '1em'}}>CleaveJSSample</header>

@@ -1,5 +1,4 @@
 import React, {useState, createRef} from 'react'
-import Chart from 'chart.js'
 import {Doughnut} from 'react-chartjs-2';
 import uniqid from 'uniqid'
 import RadarSample from './RadarSample'
