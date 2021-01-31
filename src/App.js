@@ -17,7 +17,8 @@ import PrismJSSample from './Components/PrismJS/PrismJSSample'
 import QuillSample from './Components/Quill/QuillSample'
 import SlickSample from './Components/Slick/SlickSample'
 import DatetimeSample from './Components/Datetime/DatetimeSample'
-import ThreeJSTool from './Components/ThreeJS/ThreeJSTools/ThreeJSTool'
+// import ThreeJSTool from './Components/ThreeJS/ThreeJSTools/ThreeJSTool'
+import Chair from './Components/ThreeJS/ThreeJSTools/Chair'
 
 function App() {
     return (
@@ -46,7 +47,7 @@ function App() {
                             <Route exact path="/SweetAlertJS"
                                 component={SweetAlertJSSample}/>
                             <Route exact path="/ThreeJS"
-                                component={ThreeJSTool}/>
+                                component={Chair}/>
                             <Route exact path="/VideoJS"
                                 component={VideoJSSample}/>
                             <Route exact path="/Handsontable"
