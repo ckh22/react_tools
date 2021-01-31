@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState, Suspense } from "react";
 import { Section } from './section.js';
 import state from './state.js'
-import {Html, useProgress, useGLTF } from '@react-three/drei'
+import {Html, useProgress } from '@react-three/drei'
 import { Canvas, useFrame } from "react-three-fiber";
 import { a, useTransition } from "@react-spring/web";
 //Intersection Observer
