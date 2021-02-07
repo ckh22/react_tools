@@ -11,7 +11,7 @@
 }
 
 nav {
-  height: 7vh;
+  height: 5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,20 +25,44 @@ nav {
   color: #e0e0e0;
 }
 
-.main {
-  height: 85vh;
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
 }
 
-.grid {
-  width: 40%;
-  height: 100%;
-  padding: 4vh;
-  margin: 0 auto;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
-  justify-items: center;
+.flex-container .flex-links {
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: white;
+  margin: 5px;
+}
+
+.flex-links:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: black;
+}
+
+.flex-links:hover p {
+  color: white;
 }
 
 .video-js {

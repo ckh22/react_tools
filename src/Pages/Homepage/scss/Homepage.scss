@@ -11,7 +11,7 @@
 }
 
 nav {
-    height: 7vh;
+    height: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,18 +19,30 @@ nav {
     color: rgb(224, 224, 224);
 }
 
-.main {
-    height: 85vh;
+.flex-container {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    .flex-links {
+        width: 150px;
+        height: 100px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        margin: 5px;
+    }
 }
 
-.grid {
-    width: 40%;
-    height: 100%;
-    padding: 4vh;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-items: center;
+.flex-links:hover {
+    transform: scale(1.1);
+    background: black;
+    p {
+        color: white;
+    }
 }
 
 .video-js {

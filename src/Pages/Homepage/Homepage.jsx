@@ -25,13 +25,13 @@ const navLinks = [
 const Homepage = () => {
     return (
         <div className='main'>
-            <div className="grid">
+            <div className="flex-container">
                 {
                 navLinks.map((navLink) => (
                     <Link to={
                         `${navLink}`
-                    } style={{color: 'black', textDecoration: 'none'}}>
-                        {navLink} </Link>
+                    } style={{color: 'black', textDecoration: 'none'}} className='flex-links'>
+                        <p>{navLink}</p> </Link>
                 ))
             }</div>
         </div>
